@@ -1,0 +1,76 @@
+/* *{padding: 0;margin:0; } */
+
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+.subheading {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif;
+}
+
+
+/* body{ background-color:#2A2A2A} */
+
+li {
+    list-style: none;
+}
+
+#wrap {
+    max-width: 800px;
+    height: 360px;
+    margin: 100px auto;
+}
+
+@media screen and (max-width: 990px) {}
+
+#wrap ul {}
+
+#wrap ul li {
+    float: left;
+    margin: 5px;
+    width: 230px;
+    height: 360px;
+    position: relative;
+    overflow: hidden;
+}
+
+#wrap ul li img {
+    display: block;
+}
+
+#wrap ul li .cove {
+    width: 230px;
+    height: 360px;
+    position: absolute;
+    top: 0;
+    left: 230px;
+    background: url(../img/new-bg.png);
+    padding: 140px 0 0 0;
+}
+
+#wrap ul li .cove p {
+    font-size: 14px;
+    font-family: 微软雅黑;
+    color: #fff;
+    text-align: center;
+}
+
+#sideNav {
+    background: #333!important
+}
+
+.name {
+    color: #fff;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif;
+    font-size: 3em
+}
+
+#sideNav .navbar-brand .img-profile {
+    border: none;
+}
